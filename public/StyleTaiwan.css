@@ -1,0 +1,214 @@
+body{
+    background-image: url("../assets/images/FotosTaiwan/TaiwanPicture.jpeg");
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+
+    font-size: 25px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    height: 25px;
+    width: 100%;
+    border: 1px solid;
+    padding: 15px;
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    background-color: rgba(0, 0, 0, 0.519);
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: rgb(58, 57, 56);
+
+}
+
+#titulo{
+    background: rgba(0, 0, 0, 0.321);
+
+    color: rgb(254, 255, 254);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+    text-shadow: -5px 5px 10px black;
+
+    border-style: outset;
+    border-radius: 10px;
+    border-color: blue;
+    padding: 15px;
+}
+
+.principal{
+    font-size: 35px;
+    border-width: 10px;
+
+}
+
+.secundario{
+    font-size: 25px;
+    border-width: 5px;
+}
+
+p{
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.385), rgba(0, 0, 255, 0.317));
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+    text-shadow: -5px 5px 10px black;
+
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
+    border-style: outset;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 15px;
+
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#boxes{
+
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.269), rgba(0, 0, 255, 0.406));
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 15px;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 100px;
+
+    margin: 10px;
+}
+
+.rate{
+    width: 200px;
+    height: 200px;
+
+    border-color: rgba(0, 0, 255, 0.606);
+    font-weight:bold;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.rate:hover{
+    text-shadow: -5px 5px 10px black;
+    border-color: rgb(47, 55, 166);
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background: white;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+    border-style: outset;
+    border-radius: 10px;
+    border-color: blue;
+
+    position:static;
+    margin-left: 35%;
+    margin-right: 35%;
+
+    aspect-ratio: 1/1;
+}
+
+.container div{
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color:white;
+    scroll-snap-align: center;
+    
+
+}
+
+.box1{
+    background: url(../assets/images/FotosTaiwan/BeefNoddleSoup.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box2{
+    background: url(../assets/images/FotosTaiwan/BeefPho.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    background: url(../assets/images/FotosTaiwan/Boba.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box4{
+    background: url(../assets/images/FotosTaiwan/MeatPho.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.box5{
+    background: url(../assets/images/FotosTaiwan/Poke.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box6{
+    background: url(../assets/images/FotosTaiwan/VietnamseSoup.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box7{
+    background: url(../assets/images/FotosTaiwan/Sushi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container::-webkit-scrollbar{
+    width: 10px;
+    background-color: white;
+}
+
+.container::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    font-family: inherit;
+}
